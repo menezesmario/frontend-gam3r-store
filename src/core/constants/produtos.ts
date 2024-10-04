@@ -1,6 +1,6 @@
-import Produto from '../produto/Produto'
+import { Produto } from '../produto'
 
-export const produtos: Produto[] = [
+const produtos: Produto[] = [
     {
         id: 1,
         nome: 'Notebook Gamer Acer Nitro 5',
@@ -721,3 +721,4 @@ export const produtos: Produto[] = [
     },
 ]
 
+export default produtos
